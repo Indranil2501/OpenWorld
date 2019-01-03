@@ -1,0 +1,24 @@
+{
+  "name": "openworld",
+  "version": "1.0.0",
+  "description": "Capston Project - Open World",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Indranil2501/OpenWorld.git"
+  },
+  "author": "Indranil Das",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Indranil2501/OpenWorld/issues"
+  },
+  "homepage": "https://github.com/Indranil2501/OpenWorld#readme",
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  }
+}
