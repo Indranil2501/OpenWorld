@@ -13,14 +13,22 @@
 </head>
 <body>
     <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
-        <div class="container">
+        <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                     <span class="navbar-toggler-icon"></span>
             </button>
             <a class="navbar-brand" href="./index.html">Open World</a>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item"><a class="nav-link" href="./index.html">Courses</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="./index.html">Courses</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
                     <li class="nav-item active"><a class="nav-link" href="#">Dashboard</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Leader Board</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Community</a></li>
