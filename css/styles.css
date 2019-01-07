@@ -24,6 +24,22 @@
   background-size: cover;
   color: white; 
 }
+
+hr{
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0; 
+}
+
+a{
+  color: white;
+}
+a:hover{
+  color: white;
+}
   
 address {
   font-size: 80%;
@@ -32,8 +48,9 @@ address {
 }
   
 body {
+  font-family: 'Times New Roman', Times, serif;
   padding: 50px 0px 0px 0px;
-  z-index: 0; 
+  z-index: 0;
 }
   
 .navbar-dark {
