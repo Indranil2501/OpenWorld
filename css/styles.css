@@ -40,6 +40,10 @@ a{
 a:hover{
   color: white;
 }
+
+.card-body{
+  background-color: lightgrey;
+}
   
 address {
   font-size: 80%;
